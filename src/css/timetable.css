@@ -1,0 +1,129 @@
+.timetable {
+  padding-top: 133px;
+  padding-bottom: 233px;
+}
+
+.timetable__list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 57px;
+  row-gap: 50px;
+}
+
+.card__date {
+  margin-bottom: 19px;
+  color: var(--color-black);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.list__item {
+  width: 100%;
+  max-width: 378px;
+  border-radius: 10px;
+  background: var(--color-white);
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.12);
+}
+
+.item__card {
+  padding: 25px 35px 39px 30px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card__logo {
+  margin-bottom: 20px;
+  max-width: 90px;
+}
+
+.card__title {
+  margin-bottom: 15px;
+  color: var(--color-black);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.card__descr {
+  margin-bottom: auto;
+  padding-bottom: 18px;
+  color: var(--color-black);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card__location {
+  margin-bottom: 12px;
+  padding-left: 21px;
+  padding-top: 3px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-image: url('../images/location.svg');
+}
+
+.card__location-descr {
+  color: var(--color-black);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card__link {
+  margin-bottom: 25px;
+  padding-left: 21px;
+  padding-bottom: 2px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-image: url('../images/cardLink.svg');
+}
+
+.card__link-value {
+  margin-bottom: 25px;
+  color: var(--color-black);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  transition: color .3s ease;
+}
+
+.card__link-value:hover {
+  color: var(--aconite-purple);
+}
+
+.card__btns-wrap {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+}
+
+.card__buy-btn {
+  padding: 9px 20px 8px 19px;
+  color: var(--color-white);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  background-color: var(--aconite-purple);
+  transition: opacity .3s ease;
+}
+
+.card__buy-btn:hover {
+  opacity: .7;
+}
+
+.card__more-btn {
+  color: var(--aconite-purple);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+  cursor: pointer;
+  transition: color .3s ease;
+}
+
+.card__more-btn:hover {
+  color: var(--color-black)
+}
